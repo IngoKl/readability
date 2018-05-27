@@ -73,7 +73,3 @@ class Readability:
         scores = {'Flesch-Reading-Ease': self.fre}
 
         return scores
-
-
-test = Readability()
-print(test.score('They’re assessing the ‘reading age’ someone needs to be to understand your writing clearly on a first reading.'))
